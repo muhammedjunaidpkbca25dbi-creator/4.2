@@ -24,7 +24,7 @@ st.set_page_config(
 # Module 1 logic reused and cached for Module 6
 # ------------------------------------------------------------
 @st.cache_data
-def load_and_clean_data(file_path="C:\\Users\\muhju\\Downloads\\4.2\\output\\cleaned_cinestream.csv"):
+def load_and_clean_data(file_path="output/cleaned_cinestream.csv"):
     """
     Load CineStream catalog and perform all Module 1 cleaning steps.
     Returns cleaned DataFrame.
